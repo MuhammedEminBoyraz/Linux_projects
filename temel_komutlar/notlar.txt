@@ -1,0 +1,48 @@
+touch - dosya oluşturur
+cat - dosya içeriğini gösterir
+cp - kopyalar
+cp -r - klasörü içindekilerle birlikte kopyalar
+mv - taşır veya yeniden adlandırır
+rm - dosyayı siler
+rmdir - boş klasörü siler
+rm -r - içi dolu klasörü de siler -r = recursive, içindeki her şeyle birlikte
+mkdir - klasör oluşturur
+cd - klasör değiştirir
+pwd - nerede olduğunu gösterir
+echo - ekrana yazdırır, >> ile dosyaya ekler, > ile üzerine yazar
+nano - terminalde dosya editörÜ
+| (pipe) - soldaki komutun çıktısını sağdakine gönderir
+grep - içinde metin bazlı arama yapar(kelime,harf,sayı,herhangi bir karakter geçen satırları bulur ve gösterir)
+ls - dosya ve klasörleri listeler
+ls -l - ayrıntılı listeler (izinler, boyut, tarih)
+ls -a - gizli dosyaları da gösterir (. ile başlayanlar)
+ls -la - ikisini birden yapar
+ls -la çıktısı okuma: -rw-rw-r-- 1 kali3835 kali3835 0 Feb 21 12:21 test.txt
+ilk harf: d=klasör, -=dosya
+sonraki 3: sahibinin izinleri (r=okuma, w=yazma, x=çalıştırma)
+sonraki 3: grubun izinleri
+son 3: herkesin izinleri
+1: link sayısı
+kali3835 kali3835: sahibi ve grubu
+0: dosya boyutu
+Feb 21 12:21: Tarih ve saat
+
+Herhangi bir dosya veya klasör üzerinde bir komutu çalıştırabilmek için ya tam yolu yazmak ya da o dosya/klasör ün içinde bulunduğu klasör konumunda olmak gerekir
+
+chmod - dosya/klasör izinlerini değiştirir
+chmod +x dosya = çalıştırma izni ekle
+chmod -x dosya = çalıştırma iznini al
+Sayısal: r=4, w=2, x=1 toplanır
+chmod 755 dosya = sahip rwx, grup r-x, herkes r-x
+chmod 600 dosya = sahip rw, başkası hiçbirşey
+chmod 664 dosya = sahip rw, grup rw, herkes r
+
+AĞ KOMUTLARI
+ifconfig =  ağ arayüzlerini ve ıp adreslerini gössterir
+ip a = ifconfig'in modern versiyonu, aynı işi yapar
+ping adres = sürekli paket gönderir, Ctrl+C ile durur
+ping adres -c 4 = 4 paket gönderir ve durur
+netstat (network statistics) -t(TCP) -u(UDP) -l(listening) -n(sayısal IP) - açık portları gösterir
+
+KULLANICI YÖNETİMİ
+
