@@ -28,6 +28,7 @@ kali3835 kali3835: sahibi ve grubu
 Feb 21 12:21: Tarih ve saat
 
 Herhangi bir dosya veya klasör üzerinde bir komutu çalıştırabilmek için ya tam yolu yazmak ya da o dosya/klasör ün içinde bulunduğu klasör konumunda olmak gerekir
+Sistem komutları her yerden çalıştırılabilir
 
 chmod - dosya/klasör izinlerini değiştirir
 chmod +x dosya = çalıştırma izni ekle
