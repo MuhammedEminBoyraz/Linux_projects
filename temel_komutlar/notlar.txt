@@ -63,4 +63,10 @@ sudo su - tamamen root kullanıcısına geçer, her komut root yetkisiyle çalı
 cat /etc/passwd - sistemdeki tüm kullanıcı rollerini listeler
 adduser daki isim soyisim alanları eski dönemden kalma, gerçek insanların kullandığı sistemlerde yönetici kimin hangi rol olduğunu takip etmek için doldururdu, bizim kullanımda gereksiz
 kullanıcı = yetki rolü, beden öğretmeni veya ingilizce öğretmeni gibi. Kişi değil rol oluşturuyoruz, o yüzden isim soyisim doldurmak mantıksız
-
+systemctl status servis - servisin durumunu gösterir (aktif mi, kapalı mı)
+systemctl start servis - servisi başlatır
+systemctl stop servis - servisi durdurur
+systemctl enable servis - sistem açılınca otomatik başlat
+systemctl disable servis - sistem açılınca otomatik başlatma
+sudo gerektirir çünkü sistem genelini etkiliyor
+SSH varsayılan olarak port 22 de çalışır
