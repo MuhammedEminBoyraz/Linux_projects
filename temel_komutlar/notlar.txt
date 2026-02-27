@@ -46,4 +46,12 @@ ping adres -c 4 = 4 paket gönderir ve durur
 netstat (network statistics) -t(TCP) -u(UDP) -l(listening) -n(sayısal IP) - açık portları gösterir
 
 KULLANICI YÖNETİMİ
+whoami - şu anki kullanıcıyı(kullanıcının rolünü:)) gösterir
+sudo su - root kullanıcısına geçer (en yetkili)
+exit - bir önceki kullanıcıya döner
+cat /etc/passwd - sistemdeki tüm kullanıcıları(kullanıcı rollerini:)) listeler
+# işareti = root olduğunu gösterir, $ = normal kullanıcı
+Kullanıcı = yetki rolü demek, insan değil. root=müdür, www-data=web servisi gibi
+Privilege escalation = sisteme girdikten sonra root olmaya çalışmak
+Kullanıcı hiçbir zaman insan değil, yetki seviyesine göre ayrılmış roller. Ali Ayşe değil, müdür öğretmen öğrenci gibi. Kali3835 benim adım değil yetki rolüm.
 
