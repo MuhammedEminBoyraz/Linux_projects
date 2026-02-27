@@ -54,4 +54,13 @@ cat /etc/passwd - sistemdeki tüm kullanıcıları(kullanıcı rollerini:)) list
 Kullanıcı = yetki rolü demek, insan değil. root=müdür, www-data=web servisi gibi
 Privilege escalation = sisteme girdikten sonra root olmaya çalışmak
 Kullanıcı hiçbir zaman insan değil, yetki seviyesine göre ayrılmış roller. Ali Ayşe değil, müdür öğretmen öğrenci gibi. Kali3835 benim adım değil yetki rolüm.
+adduser - yeni kullanıcı oluşturur, bilgi ve şifre ister
+useradd - yeni kullanıcı oluşturur, soru sormaz, home klasörü oluşturmaz
+userdel kullanici - rolü siler ama home klasörü kalır
+userdel -r kullanici - rolü ve home klasörünü birlikte siler
+sudo - superuser do, tek komut için root yetkisi alır. Daha güvenli çünkü sadece o an yazılan komut root yetkisiyle çalışır, bitince normal kullanıcıya döner
+sudo su - tamamen root kullanıcısına geçer, her komut root yetkisiyle çalışır, tehlikeli olabilir
+cat /etc/passwd - sistemdeki tüm kullanıcı rollerini listeler
+adduser daki isim soyisim alanları eski dönemden kalma, gerçek insanların kullandığı sistemlerde yönetici kimin hangi rol olduğunu takip etmek için doldururdu, bizim kullanımda gereksiz
+kullanıcı = yetki rolü, beden öğretmeni veya ingilizce öğretmeni gibi. Kişi değil rol oluşturuyoruz, o yüzden isim soyisim doldurmak mantıksız
 
