@@ -79,6 +79,16 @@ top -bn1 - top komutunu interaktif olmadan 1 kez çalıştırır
   -n1 = 1 kez çalış ve dur
 free -h - RAM kullanımını human readable gösterir
 df -h - disk kullanımını human readable gösterir
+--- BASH SCRİPTİNG ---
+değişken=değer - değişken oluşturur, boşluk olmaz
+$değişken - değişkenin değerini kullanır, $ olmadan düz metin olur
+
+if [ koşul ]; then - eğer koşul doğruysa yap
+elif [ koşul ]; then - ilk koşul yanlışsa, bu koşul doğruysa yap
+else - hiçbiri doğru değilse yap
+fi - if bloğunu kapatır (if'in tersi)
+
+Karşılaştırma operatörleri:
 -gt = greater than (büyüktür)
 -lt = less than (küçüktür)
 -ge = greater or equal (büyük eşit)
