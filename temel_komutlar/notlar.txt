@@ -79,3 +79,9 @@ top -bn1 - top komutunu interaktif olmadan 1 kez çalıştırır
   -n1 = 1 kez çalış ve dur
 free -h - RAM kullanımını human readable gösterir
 df -h - disk kullanımını human readable gösterir
+-gt = greater than (büyüktür)
+-lt = less than (küçüktür)
+-ge = greater or equal (büyük eşit)
+-le = less or equal (küçük eşit)
+-eq = equal (eşittir)
+-ne = not equal (eşit değil)
