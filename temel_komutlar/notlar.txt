@@ -95,3 +95,12 @@ Karşılaştırma operatörleri:
 -le = less or equal (küçük eşit)
 -eq = equal (eşittir)
 -ne = not equal (eşit değil)
+ps aux - çalışan tüm processleri listeler (a=tüm kullanıcılar, u=kullanıcı bilgisi, x=terminale bağlı olmayanlar da)
+top - processleri canlı izler, q ile çıkılır
+kill PID - processi durdurur
+systemctl status sudo olmadan çalışır ama start, stop, enable, disable sudo gerektirir
+Swap = RAM dolunca geçici olarak kullanılan disk alanı, RAM'den çok daha yavaş
+cat açılımı = concatenate (birleştir)
+chmod açılımı = change mode (izin değiştir)
+lo = loopback, 127.0.0.1, bilgisayarın kendisi, her zaman sabit
+0.0.0.0 = tüm ağ arayüzlerinden dinliyor demek
