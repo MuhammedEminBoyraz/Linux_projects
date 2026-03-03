@@ -73,7 +73,7 @@ SSH varsayılan olarak port 22 de çalışır
 #!/bin/bash - shebang, scriptin bash ile çalıştırılacağını belirtir
 chmod +x dosya.sh - scripte çalıştırma izni verir
 ./dosya.sh - bulunduğun klasördeki scripti çalıştırır
-$() - içindeki komutu çalıştırır ve çıktısını yerine koyar. Örnek: $(date)
+$() - içindeki komutu çalıştırır ve çıktısını yerine koyar. Örnek: $(date) $(seq 1 10)
 top -bn1 - top komutunu interaktif olmadan 1 kez çalıştırır
   -b = batch mode, interaktif arayüz açma
   -n1 = 1 kez çalış ve dur
