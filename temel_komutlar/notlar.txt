@@ -26,10 +26,8 @@ son 3: herkesin izinleri
 kali3835 kali3835: sahibi ve grubu
 0: dosya boyutu
 Feb 21 12:21: Tarih ve saat
-
 Herhangi bir dosya veya klasör üzerinde bir komutu çalıştırabilmek için ya tam yolu yazmak ya da o dosya/klasör ün içinde bulunduğu klasör konumunda olmak gerekir
 Sistem komutları her yerden çalıştırılabilir
-
 chmod - dosya/klasör izinlerini değiştirir
 chmod +x dosya = çalıştırma izni ekle
 chmod -x dosya = çalıştırma iznini al
@@ -37,14 +35,12 @@ Sayısal: r=4, w=2, x=1 toplanır
 chmod 755 dosya = sahip rwx, grup r-x, herkes r-x
 chmod 600 dosya = sahip rw, başkası hiçbirşey
 chmod 664 dosya = sahip rw, grup rw, herkes r
-
 AĞ KOMUTLARI
 ifconfig =  ağ arayüzlerini ve ıp adreslerini gössterir
 ip a = ifconfig'in modern versiyonu, aynı işi yapar
 ping adres = sürekli paket gönderir, Ctrl+C ile durur
 ping adres -c 4 = 4 paket gönderir ve durur
 netstat (network statistics) -t(TCP) -u(UDP) -l(listening) -n(sayısal IP) - açık portları gösterir
-
 KULLANICI YÖNETİMİ
 whoami - şu anki kullanıcıyı(kullanıcının rolünü:)) gösterir
 sudo su - root kullanıcısına geçer (en yetkili)
@@ -107,4 +103,11 @@ lo = loopback, 127.0.0.1, bilgisayarın kendisi, her zaman sabit
 $(( )) - matematiksel işlemler için kullanılır. Örnek: $((sayac + 1))
 $(( )) içinde değişkeni $ olmadan da yazabilirsin, bash otomatik tanır
 $(( )) olmadan bash matematik yapamaz, düz metin olarak görür
+for i in liste; do - listedeki her eleman için döngü çalıştır
+done - döngü bloğunu kapatır (for ve while için)
+seq 1 10 - 1 den 10 a kadar sayı üretir
+for i in $(seq 1 10); do - 1 den 10 a kadar döngü
+while [ koşul ]; do - koşul doğru olduğu sürece döngüyü çalıştır
 for ile while arasındaki fark: for belirli bir liste üzerinde döner, while bir koşul sağlandığı sürece döner.
+read degisken - kullanıcıdan input alır ve değişkene kaydeder
+metinleri karşılaştırmak için = kullanılır, sayılar için -eq -gt gibi operatörler
