@@ -104,3 +104,6 @@ cat açılımı = concatenate (birleştir)
 chmod açılımı = change mode (izin değiştir)
 lo = loopback, 127.0.0.1, bilgisayarın kendisi, her zaman sabit
 0.0.0.0 = tüm ağ arayüzlerinden dinliyor demek
+$(( )) - matematiksel işlemler için kullanılır. Örnek: $((sayac + 1))
+$(( )) içinde değişkeni $ olmadan da yazabilirsin, bash otomatik tanır
+$(( )) olmadan bash matematik yapamaz, düz metin olarak görür
