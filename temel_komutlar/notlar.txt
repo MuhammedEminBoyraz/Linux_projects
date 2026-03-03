@@ -107,3 +107,4 @@ lo = loopback, 127.0.0.1, bilgisayarın kendisi, her zaman sabit
 $(( )) - matematiksel işlemler için kullanılır. Örnek: $((sayac + 1))
 $(( )) içinde değişkeni $ olmadan da yazabilirsin, bash otomatik tanır
 $(( )) olmadan bash matematik yapamaz, düz metin olarak görür
+for ile while arasındaki fark: for belirli bir liste üzerinde döner, while bir koşul sağlandığı sürece döner.
