@@ -1,6 +1,6 @@
 #!/bin/bash
 selamla() {
-    echo "Merhaba"
+    echo "Merhaba $1 ve $2"
 }
-selamla
+selamla "Muhammed" "Halil"
     
