@@ -2,4 +2,5 @@
 selamla() {
     echo "Merhaba"
 }
+selamla
     
