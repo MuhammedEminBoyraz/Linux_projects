@@ -116,3 +116,7 @@ bash script.sh - scripti bash ile çalıştırır (zsh kullanıcıları için ö
 /dev/tcp - bash'e özgü TCP bağlantı özelliği, zsh'da çalışmaz
 2>/dev/null - hata mesajlarını gizle
 $? - önceki komutun sonucu, 0=başarılı, diğer=başarısız
+fonksiyon_adi() { } - fonksiyon tanımlar
+$1 $2 $3 - fonksiyona verilen parametreler sırasıyla
+fonksiyon_adi parametre1 parametre2 - fonksiyonu çağırır
+Fonksiyon: aynı kodu defalarca yazmak yerine bir kere yaz, istediğin yerde çağır
