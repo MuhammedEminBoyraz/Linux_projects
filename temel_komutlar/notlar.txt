@@ -111,3 +111,8 @@ while [ koşul ]; do - koşul doğru olduğu sürece döngüyü çalıştır
 for ile while arasındaki fark: for belirli bir liste üzerinde döner, while bir koşul sağlandığı sürece döner.
 read degisken - kullanıcıdan input alır ve değişkene kaydeder
 metinleri karşılaştırmak için = kullanılır, sayılar için -eq -gt gibi operatörler
+nc -z -w1 ip port - netcat ile port tarama, -z bağlanma sadece tara, -w1 1 saniye bekle
+bash script.sh - scripti bash ile çalıştırır (zsh kullanıcıları için önemli)
+/dev/tcp - bash'e özgü TCP bağlantı özelliği, zsh'da çalışmaz
+2>/dev/null - hata mesajlarını gizle
+$? - önceki komutun sonucu, 0=başarılı, diğer=başarısız
